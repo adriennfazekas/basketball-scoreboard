@@ -13,3 +13,10 @@ function addToGuest(mennyit) {
     guestCount += mennyit
     guestEl.innerText = guestCount
 }
+
+function newGame() {
+    homeEl.innerText = 0
+    guestEl.innerText = 0
+    homeCount = 0
+    guestCount = 0
+}

@@ -10,17 +10,21 @@
             <div>
                 <h3>HOME</h3>
                 <h2 id="home-score">0</h2>
-                <button onclick="addToHome(1)">+1</button>
-                <button onclick="addToHome(2)">+2</button>
-                <button onclick="addToHome(3)">+3</button>
+                <button class="points" onclick="addToHome(1)">+1</button>
+                <button class="points" onclick="addToHome(2)">+2</button>
+                <button class="points" onclick="addToHome(3)">+3</button>
             </div>
             <div>
                 <h3>GUEST</h3>
                 <h2 id="guest-score">0</h2>
-                <button onclick="addToGuest(1)">+1</button>
-                <button onclick="addToGuest(2)">+2</button>
-                <button onclick="addToGuest(3)">+3</button>
+                <button class="points" onclick="addToGuest(1)">+1</button>
+                <button class="points" onclick="addToGuest(2)">+2</button>
+                <button class="points" onclick="addToGuest(3)">+3</button>
+                </div>
             </div>
+        </div>
+        <div class="new-game-div">
+            <button class="new-game" onclick="newGame()">New game</button>
         </div>    
         <script src="index.js"></script>    
     </body>
